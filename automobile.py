@@ -3,7 +3,7 @@ class Automobile():
 	def __init__(self, auto_name = "", speed = 0):
 		self.auto_name = auto_name
 		self.speed = speed
-		#autocount += 1
+		Automobile.autocount += 1
 	def __str__(self):
 		return ("Automobile has a self.auto_name = " + str(self.auto_name) + " and a self.speed = " + str(self.speed))
 	def speed_up(self, inc):
